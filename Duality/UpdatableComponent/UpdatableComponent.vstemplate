@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <DefaultName>UpdatableComponent.cs</DefaultName>
+    <Name>Duality Updatable Component</Name>
+    <Description>A Component that updates every frame</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+	<NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <Icon>DualityIcon.ico</Icon>
+	<TemplateID>Microsoft.CSharp.Class</TemplateID>
+	<ShowByDefault>false</ShowByDefault>
+	<AppliesTo>CSharp | MultiTarget</AppliesTo>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem TargetFileName="$fileinputname$.cs" ReplaceParameters="true">UpdatableComponent.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
